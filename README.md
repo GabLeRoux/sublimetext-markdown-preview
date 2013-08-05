@@ -41,6 +41,7 @@ The package manager cannot handle both versions yet so here's how to install the
  - or bind some key in your user key binding, using a line like this one:
    `{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser"} },`
  - once converted a first time, the output HTML will be updated on each file save (with LiveReload plugin)
+ - Note: If using Google Chrome, don't forget to let the livereload plugin have access rights to local files in plugin settings.
 
 ## Uses :
 
